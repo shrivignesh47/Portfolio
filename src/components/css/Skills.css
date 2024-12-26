@@ -1,0 +1,30 @@
+.Skills {
+    text-align: center;
+    color: white;
+    
+    padding: 75px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .skill-card {
+    background-color: #152238;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+  }
+  
+  .skill-icon {
+    width: 188px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  

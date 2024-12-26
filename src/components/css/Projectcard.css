@@ -1,0 +1,19 @@
+/* ProfileCard.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .col-lg-0 {
+    width: 100%;
+    margin-bottom: 2vh;
+  }
+  
+  @media (min-width: 600px) {
+    .col-lg-0 {
+      width: 1%;
+      margin: 0;
+    }
+  }
+  

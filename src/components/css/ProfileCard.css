@@ -1,0 +1,69 @@
+.profile-card {
+    display: flex;
+    background-color: #152238;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin: -184px;
+    width: 208vh;
+    height: 90vh;
+    margin-top: 18vh;
+    border-radius: 2vh;
+    transition: transform 0.3s ease; /* Add transition for smooth transformation */
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+  
+  .profile-picture {
+    width: 40vh;
+    height: 40vh;
+    margin-top: 30vh;
+    margin-left: 20vh;
+    border-radius: 50%; /* Make the image round */
+    transition: transform 0.3s ease; /* Add transition for smooth transformation */
+  }
+  
+  .profile-picture:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  .futuristic-shapes {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(145deg, #00ff99, #33ccff);
+    border-radius: 50%;
+    animation: moveShapes 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveShapes {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(100px, 100px);
+    }
+  }
+  
+  .futuristic-card {
+    z-index: 1;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .skill {
+    background-color: #1f334d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  

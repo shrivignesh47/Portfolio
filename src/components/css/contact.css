@@ -1,0 +1,16 @@
+/* contact.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .col-lg-2 {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .container div {
+    text-align: center;
+  }
+}
